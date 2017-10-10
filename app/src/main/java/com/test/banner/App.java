@@ -37,6 +37,7 @@ public class App extends Application {
         titles= new ArrayList(list1);
     }
     public void getScreen(Context aty) {
+
         DisplayMetrics dm = aty.getResources().getDisplayMetrics();
         H=dm.heightPixels;
         W=dm.widthPixels;
